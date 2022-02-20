@@ -1,6 +1,10 @@
 public class Desafio1 {
 	
 	public static void main(String[] args) {
+		imprimeAsteristicos();
+	}
+
+	public static void imprimeAsteristicos() {
 		Integer n = 6;
 		String i, j;
 		for(var i = 1; i <= n; i++) {
